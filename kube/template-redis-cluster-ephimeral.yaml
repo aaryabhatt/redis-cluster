@@ -243,7 +243,7 @@ objects:
           failurePolicy: Abort
           execNewPod:
             containerName: redis-cluster-node03
-            command: [ "/usr/bin/bash", "/usr/local/bin/cluster-init.sh" ]
+            command: [ "/bin/bash", "/usr/local/bin/cluster-init.sh" ]
     paused: false
     revisionHistoryLimit: 2
     #minReadySeconds: 0
