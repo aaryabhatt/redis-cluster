@@ -246,4 +246,4 @@ objects:
             command: [ "/usr/bin/bash", "/usr/local/bin/cluster-init.sh" ]
     paused: false
     revisionHistoryLimit: 2
-    minReadySeconds: 0
+    #minReadySeconds: 0
